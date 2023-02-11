@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/tamakiii-sandbox/hello-cdk-iam/issues"
   },
-  "homepage": "https://github.com/tamakiii-sandbox/hello-cdk-iam#readme",
-  "dependencies": {
-    "aws-cdk": "^2.64.0"
-  }
+  "homepage": "https://github.com/tamakiii-sandbox/hello-cdk-iam#readme"
 }
