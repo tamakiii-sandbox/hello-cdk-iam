@@ -1,4 +1,4 @@
-.PHONY: help
+.PHONY: help build bash clean
 
 TAG := hello-cdk-iam
 
@@ -8,7 +8,7 @@ help:
 build: Dockerfile
 	docker build -t $(TAG) .
 
-bash:
+bash: build
 	docker run -it --rm $(TAG) $@
 
 clean:
