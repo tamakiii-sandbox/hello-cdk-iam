@@ -1,3 +1,3 @@
-FROM amazonlinux:2.0.20230119.1
+FROM amazonlinux:2022.0.20230118.3
 
 RUN echo hi
