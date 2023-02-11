@@ -12,6 +12,7 @@ RUN dnf install -y \
 
 RUN dnf install -y \
       nodejs-1:18.4.0-1.amzn2022.0.3 \
+      npm-1:8.12.1-1.18.4.0.1.amzn2022.0.3 \
       && \
   dnf clean all && \
   rm -rf /var/cache/dnf
