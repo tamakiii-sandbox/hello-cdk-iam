@@ -12,6 +12,7 @@ bash: build
 	docker run \
 		-it \
 		--rm \
+		--volume $(HOME)/.aws:/root/.aws \
 		--volume $(PWD):/var/lib/tamakiii-sandbox/hello-cdk-iam \
 		--workdir /var/lib/tamakiii-sandbox/hello-cdk-iam \
 		$(TAG) \
